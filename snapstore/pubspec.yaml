@@ -82,10 +82,10 @@ flutter:
   fonts:
     - family: Sevillana
       fonts:
-        - asset: assets/fonts/Sevillana/CrimsonText-Bold.ttf
+        - asset: assets/fonts/Sevillana/Sevillana-Regular.ttf
     - family: Crimson_Text
       fonts:
-        - asset: assets/fonts/Crimson_Text/Sevillana-Regular.ttf
+        - asset: assets/fonts/Crimson_Text/CrimsonText-Bold.ttf
         
   #         style: italic
   #   - family: Trajan Pro
