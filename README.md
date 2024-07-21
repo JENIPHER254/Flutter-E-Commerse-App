@@ -48,3 +48,13 @@ Welcome to the Flutter E-Commerce App repository! This project aims to provide a
 - install flutter_native_splash
 - configure pubspec.yaml file
 - dart run flutter_native_splash:create
+
+## Adding SHA-1 and SHA-256 for Firebase Authentication:
+
+Ensure a smooth run of Firebase Authentication by adding SHA-1 and SHA-256 in Firebase. This essential step ensures the security and integrity of your authentication process.
+
+GENERATE SHA-1 & SHA-256
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+Mac keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+Windows keytool -list -v -keystore "C:\Users\[your device username]\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+Linux keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
