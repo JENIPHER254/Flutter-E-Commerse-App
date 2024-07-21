@@ -43,3 +43,8 @@ Welcome to the Flutter E-Commerce App repository! This project aims to provide a
 9. Validators: this includes validators for the email, password etc
 
 
+## Splash Screen setup
+
+- install flutter_native_splash
+- configure pubspec.yaml file
+- dart run flutter_native_splash:create
