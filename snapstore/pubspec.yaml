@@ -93,11 +93,10 @@ flutter:
         - asset: assets/fonts/Crimson_Text/CrimsonText-Italic.ttf
         - asset: assets/fonts/Crimson_Text/CrimsonText-Regular.ttf
         - asset: assets/fonts/Crimson_Text/CrimsonText-Regular.ttf
-        - asset: assets/fonts/CrimsonText-SemiBoldItalic.ttf
-          style: italic
+        
     - family: Sevillana
       fonts:
-        - asset: assets/aevillana/fonts/Sevillana-Regular.ttf
+        - asset: assets/fonts/Sevillana/Sevillana-Regular.ttf
           weight: 700
   #
   # For details regarding fonts from package dependencies,

@@ -4,7 +4,7 @@ import "package:snapstore/utils/theme/customTheme/textTheme.dart";
 class AppTheme {
   AppTheme._();
 
-  static ThemeData LightTheme = ThemeData(
+  static ThemeData lightTheme = ThemeData(
     useMaterial3: true,
     fontFamily: "Crimson_Text",
     brightness: Brightness.light,
@@ -12,12 +12,12 @@ class AppTheme {
     scaffoldBackgroundColor: Colors.white,
     textTheme: AppTextTheme.lightTextTheme,
   );
-  static ThemeData DarkTheme = ThemeData(
+  static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     fontFamily: "Crimson_Text",
-    brightness: Brightness.light,
+    brightness: Brightness.dark,
     primaryColor: Colors.blue,
-    scaffoldBackgroundColor: Colors.white,
+    scaffoldBackgroundColor: Colors.black,
     textTheme: AppTextTheme.lightTextTheme,
   );
 }
